@@ -1,8 +1,6 @@
 # ╔════════════════════════════════════════════════════╗
 # ║                      Aliases                       ║
 # ╚════════════════════════════════════════════════════╝
-alias fizsh-reload='source ~/.fizsh/.fizshrc'
-alias fizsh-edit='nvim ~/.fizsh/.fizshrc && source ~/.fizsh/.fizshrc'
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
