@@ -49,7 +49,7 @@ case $lnbinc in
 		then 
 			optionName=$3 
 		fi
-		ln -s $LNBIN $optionName
+		ln -s $2 $LNBIN/$optionName
 		;;
 	remove)
 		rm $LNBIN/$(basename $2)
