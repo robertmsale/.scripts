@@ -3,6 +3,10 @@
 # ╚════════════════════════════════════════════════════╝
 FUNCTIONS_LIST=("safe-delete-file" "math" "a" "sources" "xcode-run" "extract" "ls-functions" "profile-reload")
 
+fizsh-reload () {
+	source $HOME/.fizsh/.fizshrc
+}
+
 ls-functions () {
 	echo $FUNCTIONS_LIST | sed 's/ /\n/g'
 }
